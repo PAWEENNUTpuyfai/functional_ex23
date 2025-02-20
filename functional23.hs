@@ -110,7 +110,7 @@ runGameRg num range count cont history = do
             else return (False, newHistory)  
 
 
-v4 = do
+v5 = do
     g <- newStdGen
     range <- getRange
     lim <- readNumber "Guess limit"
